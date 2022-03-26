@@ -63,7 +63,7 @@ export default class SpfxMailSendWpWebPart extends BaseClientSideWebPart<ISpfxMa
 
     console.log(`-- inside SpfxMailSendWpWebPart method _eventReceivedFromAngular() => name: ${e.detail.name} age: ${e.detail.age} isObjectEmpty: ${e.detail.isObjectEmpty} --`);
 
-    const sp = spfi("https://pphackathonteam5.sharepoint.com").using(SPFx(this.context));
+    const sp = spfi(this.context.pageContext.web.absoluteUrl).using(SPFx(this.context));
 
     const emailProps: IEmailProperties = {
       To: ["rohan@pphackathonteam5.onmicrosoft.com"],
