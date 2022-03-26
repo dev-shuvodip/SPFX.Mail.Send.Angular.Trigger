@@ -59,8 +59,6 @@ export default class SpfxMailSendWpWebPart extends BaseClientSideWebPart<ISpfxMa
 
   private async _eventReceivedFromAngular(e: CustomEvent) {
 
-    console.log(this.context.pageContext.web.absoluteUrl);
-
     console.log(`-- inside SpfxMailSendWpWebPart method _eventReceivedFromAngular() => name: ${e.detail.name} age: ${e.detail.age} isObjectEmpty: ${e.detail.isObjectEmpty} --`);
 
     const sp = spfi(this.context.pageContext.web.absoluteUrl).using(SPFx(this.context));
