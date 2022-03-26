@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "An SPFX project with custom Angular elements. Send email from SPFX Webpart which triggered by event received from Angular component."
+        "default": "An SPFX project with custom Angular elements. Send email from SPFX Webpart which is triggered by event received from Angular component."
       },
       "longDescription": {
-        "default": "An SPFX project with custom Angular elements. Send email from SPFX Webpart which triggered by event received from Angular component."
+        "default": "An SPFX project with custom Angular elements. Send email from SPFX Webpart which is triggered by event received from Angular component."
       },
       "screenshotPaths": [],
       "videoUrl": "",
