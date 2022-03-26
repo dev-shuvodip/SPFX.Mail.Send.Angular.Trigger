@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "spfx-mail-send-wp",
+    "libraryId": "339a6d98-2ec9-4833-97c0-178153cd455b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFX.Mail-SendWP",
+    "solutionShortDescription": "SPFX.Mail-SendWP description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-mail-send-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxMailSendWp/SpfxMailSendWpWebPart.js",
+          "manifest": "./src/webparts/spfxMailSendWp/SpfxMailSendWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxMailSendWpWebPartStrings": "lib/webparts/spfxMailSendWp/loc/{locale}.js"
+  }
+}

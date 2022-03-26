@@ -1,0 +1,40 @@
+<div class="card">
+  <div class="card-body">
+    <form #form="ngForm">
+      <div class="form-row">
+        <div class="col mr-3">
+          <label for="name-input">Enter Name</label>
+          <input
+            class="form-control"
+            type="text"
+            id="name-input"
+            name="name"
+            ngModel
+          />
+        </div>
+        <div class="col mr-3">
+          <label for="age-input">Enter Age</label>
+          <input
+            class="form-control"
+            type="number"
+            id="age-input"
+            name="age"
+            ngModel
+          />
+        </div>
+      </div>
+      <br />
+      <div class="btn-group" role="group">
+        <button
+          type="submit"
+          class="btn btn-secondary"
+          (click)="eventEmitted(form)"
+        >
+          Submit
+        </button>
+        <br />
+        <button type="reset" class="btn btn-secondary">Reset</button>
+      </div>
+    </form>
+  </div>
+</div>
