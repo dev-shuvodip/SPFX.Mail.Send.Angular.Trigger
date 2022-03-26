@@ -3,7 +3,7 @@
   "solution": {
     "name": "spfx-mail-send-wp-client-side-solution",
     "id": "339a6d98-2ec9-4833-97c0-178153cd455b",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "SPFX.Mail-SendWP description"
+        "default": "An SPFX project with custom Angular elements. Send email from SPFX Webpart which is triggered by event received from Angular component."
       },
       "longDescription": {
-        "default": "SPFX.Mail-SendWP description"
+        "default": "An SPFX project with custom Angular elements. Send email from SPFX Webpart which is triggered by event received from Angular component."
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -30,7 +30,7 @@
         "title": "spfx-mail-send-wp Feature",
         "description": "The feature that activates elements of the spfx-mail-send-wp solution.",
         "id": "a23b3dc3-7f29-462d-946a-b31ef91e897b",
-        "version": "1.0.0.0"
+        "version": "1.0.0.1"
       }
     ]
   },
