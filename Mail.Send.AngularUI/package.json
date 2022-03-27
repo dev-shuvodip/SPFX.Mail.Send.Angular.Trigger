@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "bundle": "ng build --output-hashing none --optimization=false --single-bundle --source-map",
+    "bundle": "ng build --output-hashing none --optimization false --source-map --single-bundle",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
