@@ -3,7 +3,7 @@
   "solution": {
     "name": "spfx-mail-send-wp-client-side-solution",
     "id": "339a6d98-2ec9-4833-97c0-178153cd455b",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "spfx-mail-send-wp Feature",
         "description": "The feature that activates elements of the spfx-mail-send-wp solution.",
         "id": "a23b3dc3-7f29-462d-946a-b31ef91e897b",
-        "version": "1.0.0.1"
+        "version": "1.0.0.2"
       }
     ]
   },
