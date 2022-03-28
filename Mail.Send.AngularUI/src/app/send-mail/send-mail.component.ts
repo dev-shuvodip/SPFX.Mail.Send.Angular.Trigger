@@ -1,6 +1,6 @@
 import { Component, Output, EventEmitter, OnInit, Input } from '@angular/core';
 import { Form, NgForm } from '@angular/forms';
-import { data } from '../models/data.model';
+import { data } from '../../models/data.model';
 
 @Component({
   selector: 'send-mail',

@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { data } from './models/data.model';
+import { data } from '../models/data.model';
 
 @Component({
   selector: 'app-root',
